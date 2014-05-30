@@ -33,4 +33,6 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	public $helpers = array('Cache','Html','Session','Form');
 	public $components = array('DebugKit.Toolbar','Session','Cookie');
+	//public $theme = "Reagent";
+	public $theme = "Admin";
 }
